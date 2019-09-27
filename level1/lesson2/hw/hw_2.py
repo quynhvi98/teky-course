@@ -1,0 +1,8 @@
+print("Các khóa học tại Teky:")
+print("*"*49)
+print("* 1. Lập trình & phát triển ứng dụng \t\t\t*")
+print("* 2. Robot & điện tử tự động \t\t\t\t\t*")
+print("* 3. Công nghệ 3D & truyền thông đa phương tiện *")
+print("*"*49)
+choosen = input("Bạn lựa chọn khóa học nào? (nhấn 1 hoặc 2,3):")
+print("Bạn vừa lựa chọn khóa học số: ", choosen)

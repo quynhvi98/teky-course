@@ -1,0 +1,37 @@
+/.gradle/
+*.class
+
+# Eclipse meta file
+.classpath
+.factorypath
+.project
+.settings/
+.tomcatplugin
+
+# Package Files #
+*.jar
+*.war
+*.ear
+!gradle-wrapper.jar
+
+# generated file
+target/
+/bin
+
+# test
+src/test/resources/fixtures/.gradle
+tmp/
+
+/build/
+/.apt_generated/
+
+# Docker
+/docker/mysql/volumes
+
+#intelij
+*.iml
+*.log
+.idea
+/build/
+.yml
+/out/
