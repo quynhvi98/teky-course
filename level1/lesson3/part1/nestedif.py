@@ -9,11 +9,11 @@ english = int(input())
 ave = (math + literature + english) / 3
 print("Điểm trung bình 3 môn là:", ave)
 # Check role học sinh
-if ave>=9:
+if ave >= 9:
     print("Bạn đạt loại xuất sắc")
-elif ave >=8:
+elif ave >= 8:
     print("Bạn đạt loại giỏi")
-elif ave >=6:
+elif ave >= 6:
     print("Bạn đạt loại khá")
-elif ave <=5:
+elif ave <= 5:
     print("Bạn đạt loại trung bình")
