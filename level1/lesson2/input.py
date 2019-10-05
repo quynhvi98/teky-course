@@ -1,6 +1,6 @@
 print("Mời các em nhập cái gì đó:")
-s = input()
+s = input
 x = int(input())
-print("Bạn nhập: ", s)
+# print("Bạn nhập: ", s)
 print("Kiểu dữ liệu: ", type(s))
-print("Kiểu dữ liệu: ", int(x))
+print("Kiểu dữ liệu: ", type(x))
