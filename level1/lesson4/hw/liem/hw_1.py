@@ -1,0 +1,7 @@
+print('a.100')
+print('b.vo han')
+print('c.0')
+print('d.55')
+print('e.1')
+print('f.40')
+print('g.100')
