@@ -1,8 +1,6 @@
 import sys
 import time
 import datetime
-from datetime import date
-
 
 def checkYear(y):
     if y % 400 == 0 or (y % 100 != 0 and y % 4 == 0):
@@ -60,7 +58,6 @@ def BMI():
         print("Béo phì độ III")
     time.sleep(3)
     menu()
-
 
 def Thoigian():
     print("Mời bạn nhập ngày bắt đầu: ")
