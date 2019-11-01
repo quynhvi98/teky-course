@@ -1,0 +1,14 @@
+[[package]]
+category = "main"
+description = "Does single char input, like C getch/getche"
+name = "getch"
+optional = false
+python-versions = "*"
+version = "1.0"
+
+[metadata]
+content-hash = "c80f8b9469f9e934bbb065d39a79d75b1db02a48731cfa9e1c962ee8aaf37e81"
+python-versions = "^3.7"
+
+[metadata.hashes]
+getch = ["a6c22717c10051ce65b8fb7bddb171af705b1175e694a73be956990f6089d8b1", "be451438f7a2b389f96753aea39b6ed2540a390f1b9a12badcbc110cf9a5ce7f"]
