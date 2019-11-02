@@ -3,7 +3,7 @@ import time
 
 def sum(a, b):
     print("Tong cua 2 so la:", a+b)
-    menu()
+    # menu()
 def diff(a, b):
     print("Hieu cua 2 so la:", a-b)
     menu()
@@ -33,7 +33,7 @@ def menu():
         tich(a, b)
     elif choice == '4':
         thuong(a, b)
-    elif choice == '14':
+    elif choice == '5':
         print("Đang thoát...")
         time.sleep(1)
         sys.exit()
