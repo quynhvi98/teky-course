@@ -14,14 +14,11 @@ print("""Tiếng nhạc báo thức đang kêu. Bạn sẽ làm gì? :
 """)
 yc = input(green("Lựa chọn của bạn : "))
 while yc != '1' and yc != '2':
-    yc = input("Chúng tôi khuyến khích sự sáng tạo nhưng không phải trong trường hợp này. Xin hãy chọn lại :")
+    yc = input("Chúng tôi khuyến khích sự sáng tạo nhưng không phải trong trường hợp này. Xin hãy chọn lại: ")
 if yc == '2':
-    print("...Chúc ngủ ngon. Mọi feedback xin hãy gửi về email baohanmi@gmail.com" + "\n" + "zzZZ")
+    print("...Chúc ngủ ngon. Mọi feedback xin hãy gửi về email vi.quynh@gmail.com" + "\n" + "zzZZ")
 if yc == '1':
-    # import Instruction
-    # import Start
     import Story
-
     current_storyline = 0
     for index in range(len(Story.chapter1)):
         if index < current_storyline:
@@ -34,8 +31,8 @@ if yc == '1':
             choices = storyline[2:]
             for choice in choices:
                 print(choice[0])
-            lua_chon = int(input("Lựa chọn : "))
-            current_storyline = choices[lua_chon - 1][1]
+            choice = int(input("Lựa chọn : "))
+            current_storyline = choices[choice - 1][1]
             print(current_storyline)
         if storyline[0] == 9:
             break
@@ -44,6 +41,14 @@ if yc == '1':
         if index < current_storyline:
             continue
         storyline = Story.chapter2[index]
+        content = storyline[1]
+        print(content)
+        input()
+    current_storyline = 0
+    for index in range(len(Story.chapter3)):
+        if index < current_storyline:
+            continue
+        storyline = Story.chapter3[index]
         content = storyline[1]
         print(content)
         input()
