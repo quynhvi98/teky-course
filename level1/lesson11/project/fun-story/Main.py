@@ -27,6 +27,7 @@ if yc == '1':
         content = storyline[1]
         print(content)
         input()
+
         if len(storyline) > 2:
             choices = storyline[2:]
             for choice in choices:
