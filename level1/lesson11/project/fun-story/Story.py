@@ -11,8 +11,6 @@ print(cyan("|          |"))
 print(cyan("|          |  HỌC VIỆN Teky"))
 print(cyan("|__________|"))
 print(cyan("-----------------------------------------------------------"))
-print('Combo red heart')
-print(red('💜') + ' you and me 👫')
 
 # CHAP 1
 chapter1 = [
