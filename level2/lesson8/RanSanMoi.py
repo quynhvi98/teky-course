@@ -63,5 +63,39 @@ class BienVien(turtle.Turtle):
 #Khởi tạo đối tượng biên viền
 border = BienVien()
 border.draw_border()
+class Monster(turtle.Turtle):
+    def __init__(self): #chú ý
+        turtle.Turtle.__init__(self)
+        self.penup()
+        self.speed(0)
+        self.shape("circle") #thuộc tính hình dạng
+        self.color("green") #thuộc tính màu sắc
+        self.speed = 3 #thuộc tính màu sắc
+        self.goto(random.randint(-250, 250), random.randint(-250, 250))
+        self.setheading(random.randint(0, 360))
+
+#Hàm thiết lập khi va cham với siêu anh hùng thì quái vật sẽ đặt ở 1 vị trí ngẫu nhiên
+    def jump(self):
+        self.goto(random.randint(-250, 250), random.randint(-250, 250))
+        self.setheading(random.randint(0, 360))
+    #Hàm di chuyển, khi quái vật chạm viền sẽ quay lại
+    def move(self):
+        self.forward(self.speed)
+        if self.xcor() > 290:
+            self.setx(290)
+            self.right(60)
+        if self.xcor() < -290:
+            self.setx(-290)
+            self.right(60)
+        if self.ycor() > 290:
+            self.sety(290)
+            self.right(60)
+        if self.ycor() < -290:
+            self.sety(-290)
+            self.right(60)
+# Khai báo đối tượng quái vật
+quaivat = Monster()
+# Chương trình chính
+
 
 
