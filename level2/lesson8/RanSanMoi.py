@@ -26,12 +26,42 @@ class SuperHero(turtle.Turtle):
 
     def move(self):
         self.forward(self.speed)
-
     def turn_left(self):
+        self.left(30)
+    def turn_right(self):
         self.left(30)
     def accelerate(self):
         self.speed += 1
     def decelerate(self):
         self.speed -=1
-#Khởi tạo đối tượng của lớp siêu anh hùng
+# Khởi tạo đối tượng của lớp siêu anh hùng
+player = SuperHero()
+# Thiết lập điều khiển nhân vật bằng bàn phím
+turtle.listen()
+turtle.onkey(player.turn_left(), "Left")
+turtle.onkey(player.turn_right(), "Right")
+turtle.onkey(player.accelerate(), "Up")
+turtle.onkey(player.decelerate(), "Down")
+#Class border
+class BienVien(turtle.Turtle):
+    def __init__(self):
+        turtle.Turtle.__init__(self)
+        self.penup()
+        self.speed(0)
+        self.color("white") #thuộc tính màu sắc
+        self.pensize(5) #màu biên
+    def draw_border(self):
+        self.penup()
+        self.goto(-300, -300)
+        self.pendown()
+        self.goto(-300, 300)
+        self.goto(300, 300)
+        self.goto(300, -300)
+        self.goto(-300, -300)
+        self.hideturtle()
+
+#Khởi tạo đối tượng biên viền
+border = BienVien()
+border.draw_border()
+
 
