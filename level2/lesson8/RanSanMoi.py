@@ -96,6 +96,44 @@ class Monster(turtle.Turtle):
 # Khai báo đối tượng quái vật
 quaivat = Monster()
 # Chương trình chính
+white true:
+    player.move()
+    # Thiết lập 6 con quái vật di chuyển
+    for qv in quaivat:
+        qv.move()
+        # Kiểm tra sự va chạm quái vật và siêu anh
+    if ifCollision(player, qv)
+        qv.jump()
+    quaivat.move()
+def isCollision(t1, t2):
+    #khoảng cách giữa siêu anh hùng và quái vật
+    d = math.sqrt(math.pow(t1.xcor() - t2.xcor(),2) + math.pow(t1.ycor() - t2.ycor(), 2))
+    if d<20:
+        return True
+    else:
+        return False
+quaivat= Monster()
+quaivat = []
+for i in range(6):
+    quaivat.append(Monster())
 
+class Score(turtle.Turtle):
+    def __init__(self): # chú ý: __init__ không phải là: _init_ nhé
+        turtle.Turtle.__init__(self)
+        self.penup()
+        self.hideturtle()
+        self.spedd(0)
+        self.speed(0)
+        self.color("white")
+        self.goto(-290, 310)
+        self.score = 0
+    def update_score(self):
+        self.clear()
+        self.write("Score: {}".format(self.score), False, align = "left", font=("Arial", 14))
+    def change_score(self, points):
+        self.score += points
+        self.update_score()
+# Khởi tạo đối tượng của lớp Score()
+score = Score()
 
 
