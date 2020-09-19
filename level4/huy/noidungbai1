@@ -1,0 +1,13 @@
+- append dùng để thêm vào cuối list
+VD1 :
+-Cách khai báo một list :
+list = []
+-Cách dùng append :
+fruita =["apple","banana",""cherry
+fruits.append("orange")
+print(fruit)
+- insert để thêm vào list một phần tử và không trả về bất kì giá trị nào
+VD1 :
+-Cách sử dụng ínsert :
+fruits =['apple,'banana','cherry']
+fruits.ínsert(1,"orange")

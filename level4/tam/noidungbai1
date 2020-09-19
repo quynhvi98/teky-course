@@ -1,0 +1,15 @@
+Bai 1. Tt voi block = sd list
+
+# khai bao list
+
+list = ["apple","orange"]
+print(list)
+
+# list.append()
+
+them 1 pt vao cuoi list
+khong tao ra list moi ma update list hien tai
+
+
+
+
