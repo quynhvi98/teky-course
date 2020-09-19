@@ -1,8 +1,6 @@
-import turtle
 import math
 import random
-import winsound
-import time
+import turtle
 
 hoasc = turtle.Screen()
 hoasc.bgcolor("black")

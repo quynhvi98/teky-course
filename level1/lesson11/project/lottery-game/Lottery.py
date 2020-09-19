@@ -1,6 +1,6 @@
-import time
-import random
 import os
+import random
+import time
 
 xo_so_giai_hai_so = random.randint(10, 99)
 xo_so_giai_ba_so = random.randint(100, 999)

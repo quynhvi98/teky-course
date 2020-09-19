@@ -1,8 +1,10 @@
 # http://ozzmaker.com/add-colour-to-text-in-python/
-import os, sys
-import random, time
-from getch import getch
+import os
+import random
+import time
+
 from board import *
+from getch import getch
 
 wking = u'\u2654'
 wqueen = u'\u2655'

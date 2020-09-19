@@ -1,6 +1,7 @@
+import datetime
 import sys
 import time
-import datetime
+
 
 def checkYear(y):
     if y % 400 == 0 or (y % 100 != 0 and y % 4 == 0):

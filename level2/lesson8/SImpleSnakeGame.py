@@ -1,9 +1,9 @@
 # Simple Snake Game in Python 3 for Beginners
 # By @TokyoEdTech
 
-import turtle
-import time
 import random
+import time
+import turtle
 
 delay = 0.1
 

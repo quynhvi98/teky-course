@@ -1,5 +1,5 @@
-import turtle
 import time
+import turtle
 
 delay = 0.1
 

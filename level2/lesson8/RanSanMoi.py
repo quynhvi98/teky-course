@@ -1,7 +1,7 @@
 # Chèn thư viện đồ họa turtle
-import turtle
 import math
 import random
+import turtle
 
 # Khởi tạo màn hình đồ họa
 screen = turtle.Screen()

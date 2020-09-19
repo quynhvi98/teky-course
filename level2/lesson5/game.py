@@ -1,6 +1,6 @@
-import turtle
 import math
 import random
+import turtle
 
 sc = turtle.Screen()
 # Thiết lập hình ảnh nền cho màn hình đồ họa

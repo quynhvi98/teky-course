@@ -1,6 +1,6 @@
-import turtle
 import math
 import random
+import turtle
 
 # set up sceen
 wn = turtle.Screen()

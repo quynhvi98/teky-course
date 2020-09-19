@@ -1,6 +1,5 @@
-import turtle
 import random
-import time
+import turtle
 
 screen = turtle.Screen()
 #Thiet lap hinh nen

@@ -1,6 +1,3 @@
-import turtle
-
-
 def drawSun(pen, x, y, size):
     pen.setheading(0)
     pen.fillcolor("yellow")
