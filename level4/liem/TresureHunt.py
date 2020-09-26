@@ -17,6 +17,7 @@ def checkIfHit(diamond_x, diamond_y, diamond_z):
         pos = event.pos
     #If player hit diamond
     if pos.x == [diamond_x - 2, diamond_x - 1, diamond_x, diamond_x + 1, diamond_x + 2] and  pos.y == [diamond_y - 2, diamond_y - 1, diamond_y, diamond_y + 1, diamond_y + 2] and  pos.x == [diamond_z - 2, diamond_z - 1, diamond_z, diamond_z + 1, diamond_z + 2]:
+        time.sleep(5)
         mc.postToChat('HIT')
 
 setTreasure(50,50,50)
