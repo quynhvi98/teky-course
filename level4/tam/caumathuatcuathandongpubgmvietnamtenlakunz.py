@@ -12,6 +12,6 @@ def safeFeet():
         mc.postToChat("not safe")
     else:
         mc.postToChat("safe")
-     while True:
+    while True:
          time.sleep(0.5)
          safeFeet()
